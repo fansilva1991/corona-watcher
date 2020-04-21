@@ -194,7 +194,6 @@
 				23D62F70CA93E23F05B856BC /* Pods-CoronaWatcher-tvOSTests.debug.xcconfig */,
 				7B760CEA18A5DF31FD5B9D89 /* Pods-CoronaWatcher-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -628,6 +627,7 @@
 			baseConfigurationReference = 8D98ED2F145E9065B8B04DE0 /* Pods-CoronaWatcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -655,6 +655,7 @@
 			baseConfigurationReference = 3F88CAB43DB9A01E3F3F169B /* Pods-CoronaWatcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = CoronaWatcher/Info.plist;
